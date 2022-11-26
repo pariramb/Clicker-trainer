@@ -91,7 +91,7 @@ while (running):
     elif ((j == len(text.text_list) - 1) and (i == len(word))):
         pygame.mixer.music.pause()
         # фоновая музыка
-        pygame.mixer.music.load("Toby Fox — 1 – Once Upon a Time (OST_ Undertale) (www.lightaudio.ru).mp3")
+        pygame.mixer.music.load("artifacts\music\\Toby Fox — 1 – Once Upon a Time (OST_ Undertale) (www.lightaudio.ru).mp3")
         pygame.mixer.music.play(-1)
         timer = time.time() - total_time
         objects.screen.fill(constans.BLACK)
@@ -121,7 +121,7 @@ while (running):
                 if ((event.type == pygame.MOUSEBUTTONDOWN) and (event.button == 1)):
                     pygame.mixer.music.pause()
                     # фоновая музыка
-                    pygame.mixer.music.load("Toby Fox — Fallen Down (www.lightaudio.ru).mp3")
+                    pygame.mixer.music.load("artifacts\music\\Toby Fox — Fallen Down (www.lightaudio.ru).mp3")
                     pygame.mixer.music.play(-1)
                     x = event.pos[0]
                     y = event.pos[1]
