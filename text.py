@@ -15,7 +15,7 @@ font = pygame.font.Font(None, 120)
 font2 = pygame.font.Font(None, 80)
 # набираемый текст в файле (подойдёт любой текст без заглавных букв(на латинице))
 text = ''
-with open('sentences.txt') as f:
+with open('artifacts\\sentences.txt') as f:
     for string in f:
         text += string[:len(string)]
 if (len(text) == 0):
