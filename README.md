@@ -3,7 +3,7 @@
 ### Installation
 git clone https://github.com/pariramb/my_incredible_project_1.git
 
-pip3 install -r requirements.py
+pip3 install pygame
 
 ### Running from 'dev' branch
 git checkout dev
