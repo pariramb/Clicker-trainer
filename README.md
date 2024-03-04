@@ -1,6 +1,6 @@
-# my_incredible_project_1
+# Clicker-trainer
 
-### Installation
+###Installation
 git clone https://github.com/pariramb/my_incredible_project_1.git
 
 pip3 install pygame
